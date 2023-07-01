@@ -1,0 +1,40 @@
+/* Small screens and laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS styles for small screens and laptops */
+  }
+  
+  /* iPads, Tablets */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS styles for iPads and tablets */
+    html {
+      font-size: 12px;
+    }
+    .container {
+      padding: 15px 25px 80px 25px;
+    }
+    .box-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .box {
+      padding: 20px 10px;
+    }
+  }
+  
+  /* Mobile devices */
+  @media (min-width: 320px) and (max-width: 480px) {
+    /* CSS styles for mobile devices */
+    html {
+      font-size: 10px;
+    }
+    .container {
+      padding: 15px 30px 80px 30px;
+    }
+    .box-container {
+      grid-template-columns: 1fr;
+    }
+    .box {
+      padding: 15px 5px;
+    }
+  }
+  
